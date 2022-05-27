@@ -22,5 +22,5 @@ app.get('/',(req,res)=>{
     res.send(`node and express server running at ${PORT}`)
 })
 app.listen(PORT,()=>{
-    console.log(`App listening at Port:${PORT}`)
+    console.log(`App listening at Port :${PORT}`)
 })
