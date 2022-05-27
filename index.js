@@ -6,7 +6,7 @@ import cors from 'cors'
 const app =express()
 //mongoose connection
 mongoose.Promise=global.Promise
-mongoose.connect('mongodb+srv://BENJI:mern@cluster0.rmekg.mongodb.net/?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://<username>:<password>@cluster0.rmekg.mongodb.net/?retryWrites=true&w=majority',{
     useNewUrlParser:true,
     useUnifiedTopology:true
 })
